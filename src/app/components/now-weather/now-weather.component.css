@@ -1,0 +1,49 @@
+.mainNow {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+}
+.leftNow {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.topLeftNow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.capitalName {
+  color: #fff;
+  font-family: Sora;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.chanceOfRain {
+  color: #939393;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.temperture {
+  color: #fff;
+  font-family: Sora;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.rightNow {
+  width: 240px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightNow img {
+  height: 100%;
+}

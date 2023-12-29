@@ -1,0 +1,14 @@
+<main>
+    <div *ngFor="let item of weatherData">
+        <p>{{item}}</p>
+    </div>
+    <app-aside-menu/>
+    <div class="rightSide">
+        <div class="center">
+            <app-location-search/>
+            <app-now-weather/>
+            <app-air-condition/>
+        </div>
+        <app-week-forecast/>
+    </div>
+</main>

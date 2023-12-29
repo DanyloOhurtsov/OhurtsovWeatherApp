@@ -1,0 +1,48 @@
+<div class="mainAir" *ngIf="weatherData">
+    <h3 class="title2">Air conditions</h3>
+    <div class="contentAir">
+        <div class="leftAir">
+            <div class="item">
+                <div class="left">
+                    <img src="assets/img/Icon-Waterdrops.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="text">Humidity</p>
+                    <p class="value">{{humidity}} %</p>
+                </div>
+            </div>
+            <div class="lineHor"></div>
+            <div class="item">
+                <div class="left">
+                    <img src="assets/img/Icon-Spedometer Middle.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="text">Presure</p>
+                    <p class="value">{{presure}} hPA</p>
+                </div>
+            </div>
+        </div>
+        <div class="lineVer"></div>
+        <div class="rightAir">
+            <div class="item">
+                <div class="left">
+                    <img src="assets/img/Icon-Wind.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="text">Wind</p>
+                    <p class="value">{{wind}} km/h</p>
+                </div>
+            </div>
+            <div class="lineHor"></div>
+            <div class="item">
+                <div class="left">
+                    <img src="assets/img/Icon-Eye.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="text">Visibility</p>
+                    <p class="value">{{visibility}} km</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

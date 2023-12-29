@@ -1,0 +1,14 @@
+<div class="mainWeek">
+  <div class="contentWeek" *ngIf="forecastData">
+    <h3 class="title2">7-day forecast</h3>
+    <div class="weekForecast">
+      <div class="itemWeek" *ngFor="let key of forecastData">
+        <p class="dayWeek">{{key.day}}</p>
+        <div class="weatherWeek">
+            <p class="typeWeather">{{key.text}}</p>
+        </div>
+        <p class="tempertureWeek">{{((key.high - 32)/1.8).toFixed(1)+'°'}}/{{((key.low - 32)/1.8).toFixed(1)+'°'}}</p>
+      </div>
+    </div>
+  </div>
+</div>

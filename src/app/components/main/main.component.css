@@ -1,0 +1,18 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color:white
+}
+.rightSide{
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+    display: flex;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
